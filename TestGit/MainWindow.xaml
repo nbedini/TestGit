@@ -7,6 +7,9 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        <Label Content="Pippo"/>
+        <DockPanel>
+            <Label DockPanel.Dock="Top" Content="Pippo"/>
+            <Label DockPanel.Dock="Bottom" VerticalContentAlignment="Bottom" Content="Footer"/>
+        </DockPanel>
     </Grid>
 </Window>
