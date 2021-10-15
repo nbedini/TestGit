@@ -23,6 +23,7 @@ namespace TestGit
         public MainWindow()
         {
             string title = "Titolo dell'app";
+            DateTime now = DateTime.Now;
             InitializeComponent();
         }
     }
