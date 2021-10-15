@@ -10,7 +10,9 @@
         <DockPanel>
             <Label DockPanel.Dock="Top" Content="Pippo"/>
             <Label DockPanel.Dock="Bottom" VerticalContentAlignment="Bottom" Content="Footer"/>
-            <Button Content="Cliccami"/>
+            <Button>
+                <CheckBox Content="Cliccami"/>
+            </Button>
         </DockPanel>
     </Grid>
 </Window>
