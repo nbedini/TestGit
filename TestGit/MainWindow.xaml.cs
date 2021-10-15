@@ -22,6 +22,7 @@ namespace TestGit
     {
         public MainWindow()
         {
+            string title = "Titolo dell'app";
             InitializeComponent();
         }
     }
