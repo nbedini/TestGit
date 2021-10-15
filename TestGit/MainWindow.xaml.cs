@@ -22,6 +22,7 @@ namespace TestGit
     {
         public MainWindow()
         {
+            DateTime now = DateTime.Now;
             InitializeComponent();
         }
     }
